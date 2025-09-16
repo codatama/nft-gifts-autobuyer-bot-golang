@@ -1,0 +1,8 @@
+services:
+  bot:
+    build: .
+    restart: always
+    ports:
+      - ""
+    extra_hosts:
+      - ""
